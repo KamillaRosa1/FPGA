@@ -1,3 +1,4 @@
+//Test Bench do Somador completo 8-bit
 module testBench_2;
 
   reg [7:0] x, y;
@@ -5,7 +6,7 @@ module testBench_2;
   wire [7:0] A;
   wire Cout;
 
-  // Inst‚ncia do somador
+  // Inst√¢ncia do somador
   som_comp_8bit soma_inst ( 
         .x(x),
         .y(y), 
@@ -21,7 +22,7 @@ module testBench_2;
 
         #10; // Espera 10 unidades de tempo
 
-        $display("Aplicando estÌmulos: x=%b, y=%b, Cin=%b", x, y, Cin);
+        $display("Aplicando est√≠mulos: x=%b, y=%b, Cin=%b", x, y, Cin);
        
         $display("Resultado: A=%b, Cout=%b", {A}, Cout); 
 
