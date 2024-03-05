@@ -3,7 +3,7 @@ Exercícios em linguagem de Descrição
 
 1. Implemente o somador completo de 1-bit da figura abaixo.
 
-![Somador Completo 1-bit](https://github.com/KamillaRosa1/FPGA/assets/128093202/fc799d1f-07c6-4041-b91b-f32d39f4404f)
+      ![Somador Completo 1-bit](https://github.com/KamillaRosa1/FPGA/assets/128093202/fc799d1f-07c6-4041-b91b-f32d39f4404f)
       
 3. Com base no somador de 1-bit do exercício anterior, implemente um somador completo
 de 8 bits.
